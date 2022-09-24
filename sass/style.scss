@@ -1,0 +1,16 @@
+$profile-Container-bg-color: #040517;
+
+$profile-Container-bg-color: #040010;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+@import './profile/profile.scss';
